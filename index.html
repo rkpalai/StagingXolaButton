@@ -12,7 +12,11 @@
 </script>
 </head>
 <body>
-<div class="xola-checkout xola-custom header" data-button-id="648ab9f72068cb7bd434bb51" data-locale="auto">book now</div>
-
+<style>
+  .xola-checkout.xola-custom:before { content: "Book Now | $99" }
+</style>
+<div class="xola-checkout xola-custom header" data-button-id="648ab9f72068cb7bd434bb51" data-locale="auto">
+  ::before
+</div>
 </body>
 </html>
